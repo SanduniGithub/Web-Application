@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative One Page Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Web Application</h1>
+    </header>
+    <main>
+        <section class="image-boxes">
+            <div class="image-box">
+                <img src="https://via.placeholder.com/300" alt="Image 1">
+                <p>This is the first image description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="image-box">
+                <img src="https://via.placeholder.com/300" alt="Image 2">
+                <p>This is the second image description. Quisque at sapien a libero convallis feugiat.</p>
+            </div>
+            <div class="image-box">
+                <img src="https://via.placeholder.com/300" alt="Image 3">
+                <p>This is the third image description. Aliquam erat volutpat. Nullam quis volutpat orci.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 My Creative Page</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.image-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.image-box {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+}
+
+.image-box p {
+    padding: 0.5rem;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+</style>
