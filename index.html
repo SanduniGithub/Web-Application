@@ -4,93 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Application</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Linking external CSS file -->
 </head>
 <body>
     <header>
-        <h1>Hello, World!</h1>
+        <h1>Hello, World!</h1> <!-- Main header with title -->
     </header>
     <main>
         <section class="image-boxes">
             <div class="image-box">
                 <img src="https://cdn.pixabay.com/photo/2022/09/01/04/40/anemone-7424709_1280.jpg" alt="Image 1">
-                <p>Flower 1</p>
+                <p>Flower 1</p> <!-- First image box with description -->
             </div>
             <div class="image-box">
                 <img src="https://cdn.pixabay.com/photo/2024/01/17/17/22/bee-8515123_1280.jpg" alt="Image 2">
-                <p>Flower 2</p>
+                <p>Flower 2</p> <!-- Second image box with description -->
             </div>
             <div class="image-box">
                 <img src="https://cdn.pixabay.com/photo/2023/10/26/11/17/flower-8342448_1280.jpg" alt="Image 3">
-                <p>Flower 3</p>
+                <p>Flower 3</p> <!-- Third image box with description -->
             </div>
         </section>
     </main>
     <footer>
-        <p>© 2024 Sanduni</p>
+        <p>© 2024 Sanduni</p> <!-- Footer with copyright information -->
     </footer>
-    <script src="scripts.js"></script>
+    <script src="scripts.js"></script> <!-- Linking external JavaScript file -->
 </body>
 </html>
+
 <style>
+    /* CSS styles for the entire document */
+
     body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+        font-family: Arial, sans-serif; /* Default font family */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+        display: flex; /* Use flexbox for layout */
+        flex-direction: column; /* Vertical column layout */
+        min-height: 100vh; /* Minimum height to fill viewport */
+    }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-}
+    header {
+        background-color: #4CAF50; /* Header background color */
+        color: white; /* Text color */
+        text-align: center; /* Center align text */
+        padding: 1rem; /* Padding around header content */
+    }
 
-h1 {
-    margin: 0;
-}
+    h1 {
+        margin: 0; /* Remove margin for h1 */
+    }
 
-main {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 1rem;
-}
+    main {
+        flex: 1; /* Allow main section to grow */
+        display: flex; /* Use flexbox for layout */
+        justify-content: center; /* Center align content horizontally */
+        align-items: center; /* Center align content vertically */
+        flex-wrap: wrap; /* Allow content to wrap */
+        padding: 1rem; /* Padding around main content */
+    }
 
-.image-boxes {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-}
+    .image-boxes {
+        display: flex; /* Use flexbox for image boxes */
+        flex-wrap: wrap; /* Allow image boxes to wrap */
+        gap: 1rem; /* Gap between image boxes */
+        justify-content: center; /* Center align image boxes horizontally */
+    }
 
-.image-box {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    overflow: hidden;
-    width: 300px;
-    text-align: center;
-}
+    .image-box {
+        border: 1px solid #ddd; /* Border for image boxes */
+        border-radius: 4px; /* Rounded corners */
+        overflow: hidden; /* Hide overflow content */
+        width: 300px; /* Fixed width for image boxes */
+        text-align: center; /* Center align text */
+    }
 
-.image-box img {
-    width: 100%;
-    height: auto;
-}
+    .image-box img {
+        width: 100%; /* Make images fill their containers */
+        height: auto; /* Maintain aspect ratio */
+    }
 
-.image-box p {
-    padding: 0.5rem;
-}
+    .image-box p {
+        padding: 0.5rem; /* Padding around image descriptions */
+    }
 
-footer {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-}
+    footer {
+        background-color: #4CAF50; /* Footer background color */
+        color: white; /* Text color */
+        text-align: center; /* Center align text */
+        padding: 1rem; /* Padding around footer content */
+    }
 
 </style>
